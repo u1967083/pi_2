@@ -6,6 +6,7 @@ function start_game(){
 function exit (){
 	if (name != ""){
 		alert("Leaving " + name + "'s game");
+		
 	}
 	name = "";
 }
@@ -15,4 +16,7 @@ function options(){
 	console.log("Options menu button");
 }
 
+function gotomenu() {
 
+	loadpage("./html/index.html");
+}
