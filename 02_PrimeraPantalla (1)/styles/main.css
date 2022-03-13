@@ -1,7 +1,7 @@
-#title{
+#title {
 	font-size: 26px;
 	line-height: 75px;
-
+	text-align: center;
 }
 
 
@@ -14,11 +14,12 @@
 	font-size: 16px;
 	margin-top: 10px;
 	background-color: navajowhite;
+	text-align: center;
 }
 
 p {
 	text-align: center;
-	background-image: url("background.jpg");
+
 }
 
 button.menu-object:active {
@@ -28,7 +29,12 @@ button.menu-object:active {
 	
 	
 }
-
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 100px;
+	gap: 20px;
+}
 
 button.menu-object:hover:not(:active) {
 	font-size: 22px;
@@ -38,19 +44,19 @@ button.menu-object:hover:not(:active) {
 }
 
 img {
-	border: 3 px;
+	border: 1 px;
 }
 
 .image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20 px;
-	heigth: 100 vh;
+	padding: 10 px;
+	heigth: 900 vh;
 }
 
 #imgs {
 	display: block;
-	margin-left: 50 px;
-	margin-right: 50 px;
+	margin-left: 40 px;
+	margin-right: 40 px;
 }
