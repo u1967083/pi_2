@@ -1,28 +1,29 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="../styles/main.css">
-		<script src="../js/game_controller.js"></script>
-		<script src="../js/loader.js"></script>
-		<title> My first game - Game </title>
-	</head>
-	<body style="background-color: #5A332B;>
-		<p class="menu-object" id="title">Memory game</p>
+<head>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../js/game_controller.js"></script>
+    <script src="../js/loader.js"></script>
+    <title> My first game - Game </title>
+</head>
+<body style="background-color: #5A332B;>
+    <p class="menu-object" id="title">Memory game</p>
 
-		<div>
+    <div class=" image">
 
-			<img src="../resources/cb.png" onclick="items[0].do_click()">
-			<img src="../resources/tb.png" onclick="items[1].do_click()">
-			<img src="../resources/tb.png" onclick="items[2].do_click()">
-			<img src="../resources/cb.png" onclick="items[3].do_click()">
-		</div>
-		
-		<a href="index.html">
-			<button class="menu-object" onclick="gotomenu()">
+        <img id="imgs" src="../resources/cb.png" onclick="items[0].do_click()" HSPACE="15" VSPACE="15">
+        <img id="imgs" src="../resources/tb.png" onclick="items[1].do_click()" HSPACE="15" VSPACE="15">
+        <img id="imgs" src="../resources/tb.png" onclick="items[2].do_click()" HSPACE="15" VSPACE="15">
+        <img id="imgs" src="../resources/cb.png" onclick="items[3].do_click()" HSPACE="15" VSPACE="15">
+
+    </div>
+
+    <a href="index.html">
+        <button class="menu-object" onclick="gotomenu()">
 
 
-				Go To Menu
-			</button>
-		</a>
-	</body>
+            Go To Menu
+        </button>
+    </a>
+</body>
 </html>
